@@ -1,6 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE RecordWildCards #-}
 
+import Data.Map
 import Debug.Trace
 
 import Miso
@@ -59,6 +60,6 @@ main = do
         model         = [0..w-1]
         update        = updateBoard
         view          = viewBoard
-        events        = defaultEvents
+        events        = Data.Map.insert "contextmenu" False defaultEvents
         subs          = [ ]
     startApp App {..}
