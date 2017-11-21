@@ -2,13 +2,13 @@ code size summary per package:
 
 AHOOhHjGLItBYmDB2lAxxO:  826
 DfpZFnZR7Sa7Y07uHwVn10:  10227
-KQpEOkJjX9qJTwsO87bqLg:  75455
+KQpEOkJjX9qJTwsO87bqLg:  77705
 aeson_D4zMF1P1ZpsKMgz9HPiZU6:20876
 base:                    383777
-ghc-prim:                16759
-ghcjs_7HDZUYLWu6O9tXZr0Fsvpn:14713
+ghc-prim:                16952
+ghcjs_7HDZUYLWu6O9tXZr0Fsvpn:19219
 integer-gmp:             24088
-main:                    9249
+main:                    9696
 miso_0xdQDDjxQUTLV8QQeYtitu:82144
 scien_4m62Psf9729KUEAP4gkY8C:4872
 text_DfPPBlezQfj0WJcyB3QXey:1943
@@ -26,7 +26,7 @@ DfpZFnZR7Sa7Y07uHwVn10
     GHCJS.Prim.Internal:                4427
 
 KQpEOkJjX9qJTwsO87bqLg
-    Data.Map.Base:                      38388
+    Data.Map.Base:                      40638
     Data.Sequence:                      37067
 
 aeson_D4zMF1P1ZpsKMgz9HPiZU6
@@ -83,14 +83,14 @@ base
     System.Posix.Internals:             16119
 
 ghc-prim
-    GHC.CString:                        1880
-    GHC.Classes:                        12715
+    GHC.CString:                        1882
+    GHC.Classes:                        12906
     GHC.IntWord64:                      146
     GHC.Tuple:                          802
     GHC.Types:                          1216
 
 ghcjs_7HDZUYLWu6O9tXZr0Fsvpn
-    Data.JSString:                      4664
+    Data.JSString:                      9170
     Data.JSString.Internal.Type:        242
     GHCJS.Foreign.Internal:             366
     GHCJS.Internal.Types:               231
@@ -104,7 +104,7 @@ integer-gmp
     GHC.Integer.Type:                   23755
 
 main
-    Main:                               9249
+    Main:                               9696
 
 miso_0xdQDDjxQUTLV8QQeYtitu
     Miso:                               16614
@@ -137,5 +137,5 @@ vecto_DY6msUvqg3iJ5Ak1gSL0h2
 
 
 
-packed metadata: 139769
+packed metadata: 142123
 
